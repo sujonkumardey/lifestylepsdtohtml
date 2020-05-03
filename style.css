@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#head {
+    background-color: #27292f;
+    overflow: hidden;
+    padding: 30px 20px;
+}
+
+.left_logo {
+    width: 35%;
+    float: left;
+}
+
+.left_logo {
+    color: #fff;
+}
+
+.top_search {}
+
+.top_search input[type="text"] {
+    background: #1f232c;
+    border: none;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.top_search button {
+    position: absolute;
+    right: 218px;
+    top: 34px;
+    background: #11131a;
+    color: #c5c6c7;
+    border: none;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.right_menu {
+    width: 65%;
+    float: left;
+    text-align: right;
+}
+
+.right_menu ul {
+    font-size: 0;
+}
+
+.right_menu ul li {
+    display: inline-block;
+}
+
+.right_menu ul li a {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.ct-area {
+    background: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.ct-area h2 {
+    flex-basis: 74%;
+    font-size: 32px;
+    padding: 45px 20px;
+}
+
+.ct-area a {
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    color: #e4e2e2;
+    background: #1f232c;
+    padding: 20px 10px;
+
+}
+
+#service {
+    padding: 50px 20px;
+}
+
+#service li {
+    display: inline-block;
+    width: 22%;
+    background: url(http://placehold.it/100x100);
+    background-repeat: no-repeat;
+    padding-left: 11%;
+}
+
+.single_service h4 {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.single_service h4::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 73px;
+    background-color: #1f232c;
+    top: 25px;
+    left: 0;
+}
+
+.single_service p {
+    color: #979797;
+}
+
+#facilis {
+    padding: 80px 15px;
+    text-align: center;
+}
+
+.facilis_title {
+    position: relative;
+}
+
+.facilis_border {
+    position: absolute;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    top: -53px;
+    width: 100%;
+}
+
+.facilis_title h2 {
+    position: absolute;
+    width: 28%;
+    top: -68px;
+    background: #fff;
+    z-index: 2;
+    left: 330px;
+}
+
+.single_facilis h4 {
+    font-size: 20px;
+}
+
+.single_facilis p {
+    padding-bottom: 17px;
+}
+
+.single_facilis {
+    background-color: #eeeeee;
+    margin: 5px;
+}
+
+#facilis li {
+    display: inline-block;
+    width: 32%;
+}
+
+.single_widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.single_widget h4 {
+    color: #2c2c2c;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.single_widget p {
+    color: #7c7c7c;
+    font-size: 14px;
+}
+
+.single_widget h3 {
+    color: #7c7c7c;
+    font-size: 15px;
+}
+
+.single_widget li a {
+    text-decoration: none;
+    color: #1f232c;
+    font-size: 14px;
+}
+
+.single_widget li {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 0 5px;
+}
+
+#footer_widget {
+    background-color: #eeeeee;
+    padding: 30px 20px;
+}
+
+#footer_widget ul li {
+	display: inline-block;
+	width: 23%;
+	margin: 5px;
+}
+
+#footer_widget li li {
+    display: block !important;
+    width: 87% !important;
+}
+
+.footer_but a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    text-align: right;
+}
+.footer_but {
+    text-align: right;
+
+}
+.foot_form input {
+
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.foot_form input[type="submit"] {
+
+    background-color: #1f232c;
+    border-radius: 5px;
+    color: #f5f4f2;
+    font-weight: bold;
+
+}
+footer{
+    background-color: #1f232c;
+    padding: 30px 25px;
+}
+.footer_text {
+    color: #737373;
+}
+.footer_text p span{
+    float: right;
+}

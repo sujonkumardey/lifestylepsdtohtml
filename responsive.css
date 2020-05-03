@@ -1,0 +1,58 @@
+/* medium layout:1280px*/
+@media only screen and (min-width:992px) and (max-width:1200px) {}
+
+
+/*tablet layout:768px*/
+@media only screen and (min-width:768px) and (max-width: 991px) {}
+
+
+/*mobile layout:320px*/
+@media only screen and (max-width:767px) {
+    .wrapper {
+        width: 300px;
+    }
+
+    .left_logo {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .top_search {
+	width: 100% !important;
+	margin: 20px 0;
+}
+    .right_menu {
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+    .top_search button {
+	right: 79px;
+	top: 116px;
+}
+    
+    .ct-area {
+	flex-direction: column;
+    padding-bottom: 20px;
+}
+    .ct-area h2 {
+	text-align: center;
+}
+    #service li {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 15px 0;
+	padding-left: 43%;
+}
+    .single_service p {
+
+    color: #979797;
+    font-size: 12px;
+
+}
+}
+
+
+/*width mobile layout*/
+@media only screen and (min-width:480px) and (max-width: 767px) {}
